@@ -1,29 +1,27 @@
 import java.util.Scanner;
 
 public class Pair {
-	public static void main(String[] args){
+	public static void main(String[] args) {
+
 		System.out.println("Learn your squares and cubes!");
+		Scanner scan = new Scanner(System.in);
+
+		int number;
+		int count = 1;
+
+			do{
+		System.out.print("Enter an integer: ");
+		number = scan.nextInt();
+		while (count <= number) {
+			int squared = count * count;
+			int cubed = (count * count * count);
+			System.out.println(count + "\t" + squared + "\t" + cubed);
+			count++;
+		} count = 1;
+
+		 } while(true);
+			
 		
-		int number = 0;
-		int squared = number*number;
-		int cubed = number * number * number;
-		
-		
-		System.out.println("Number" + "\t"  +"Squared " + "\t" + "cubed");
-		
-		do{
-			
-			Scanner scan = new Scanner (System.in);
-			
-			System.out.print("Enter an integer: ");
-			
-			number = scan.nextInt();
-			
-			System.out.println(number + "\t" + squared + "\t" + cubed  );
-			
-			
-			
-			
-		}while(true);
 	}
+//	scan.close();
 }
