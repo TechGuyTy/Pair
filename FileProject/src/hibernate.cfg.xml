@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+       "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+       "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+   <session-factory>
+       <!-- Database connection settings -->
+       <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+       <property name="hibernate.connection.url">jdbc:mysql://needjob.cjs3dj6xlkod.us-west-2.rds.amazonaws.com:3306/needjob</property>
+       <property name="hibernate.connection.username">needjob</property>
+       <property name="hibernate.connection.password">needjob1</property>
+
+
+       <!-- SQL dialect -->
+       <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+       <!-- Specify session context -->
+       <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+
+
+        
+        <mapping class="com.Shanklish.Controller.User"/>
+        <mapping class="com.Shanklish.Controller.BookmarkedJob"/>
+        
+    
+        
+
+   </session-factory>
+
+</hibernate-configuration>

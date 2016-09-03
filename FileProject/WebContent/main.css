@@ -1,0 +1,80 @@
+
+
+td, thead {
+	font-size: 3.0vh;
+}
+
+.roundedBox{
+	border-radius:50%;
+	
+}
+
+.searchPosition{
+	margin:0 auto;
+	
+}
+
+.centered {
+clear:both;
+ left: 80%;
+}
+.drop {
+	margin-top:30.0vh;
+}
+
+#stateText {
+	font-size: 200%;
+}
+
+#divOne {
+	float:left;
+	margin: 0px 10px;
+}
+
+.spacer {
+	margin: 0px 10px;
+}
+
+#divTwo {
+	float:left;
+	margin: 0px 10px;
+}
+
+.dropMed {
+	margin-top:20.0vh;
+}
+
+.thumb {
+	margin: 15px auto;
+	width: 100px;
+	height: 100px;
+}
+
+.purpleClass {
+	font: #5e2b97;
+}
+
+	body { 
+  background: url("http://i.imgur.com/kziAoNv.gif") no-repeat center center fixed; 
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+
+.all{
+	border-radius:10%;
+padding: 20px !important;
+background-color: rgba(0, 0, 0, 0.5) ;
+}
+
+h1 {
+	color:white;
+	font-size:58px;
+	font-weight:bold;
+}
+	
+p {
+	color:white;
+}

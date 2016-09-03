@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp stat="ok">
+<listings total="48" perpage="1" page="1" pages="48" last_update="2016-07-18T13:52:04-05:00">
+<listing id="27660" title="Front-End Developer" description="Great job">
+<category id="4" name="Front-end Engineering"/>
+<type id="1" name="Full-time"/>
+<company id="airtypestudio" name="Airtype Studio" url="http://airtype.com" type="" logo="https://d2fcz5no062gar.cloudfront.nethttps://authenticjobs.s3.amazonaws.com/uploads/logos/ec21530221f4474f85e227d8abec6a19/thumb/at-logo1.jpg" tagline="Brand, design and interactive agency located in Winston-Salem, NC.">
+<location id="embassysuiteswinstonsalemncncus" name="Embassy Suites Winstonsalem Nc, NC, US" city="Embassy Suites Winstonsalem Nc" country="US" lat="36.1026" lng="-80.248" state="NC"/>
+</company>
+</listing>
+</listings>
+</rsp>

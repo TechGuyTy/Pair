@@ -1,0 +1,18 @@
+body { 
+  background: url("http://eskipaper.com/images/purple-blur-wallpaper-1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+	text-decoration:none !important;
+	color: #5e2b97 !important;
+}
+
+
+/* body { */
+/* background-image: url("http://eskipaper.com/images/purple-blur-wallpaper-1.jpg"); */
+/* background-size: 100vh; */
+/* } */
